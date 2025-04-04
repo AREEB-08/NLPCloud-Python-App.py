@@ -39,3 +39,39 @@ python
 Copy
 Edit
 client = nlpcloud.Client("finetuned-llama-3-70b", "YOUR_API_KEY_HERE", gpu=True)
+
+🚀 Running the Application
+1️⃣ Start the Program
+Open your terminal or command prompt and run:
+
+bash
+Copy
+Edit
+python your_script.py
+2️⃣ Select an Option
+You'll be greeted with this menu:
+
+pgsql
+Copy
+Edit
+Hi! How would you like to proceed?
+1. Not a member? Register
+2. Already a member? Login
+3. Exit
+👉 Choose an option by entering the corresponding number.
+
+3️⃣ Choose an NLP Feature
+Once logged in, select an NLP feature from this menu:
+
+markdown
+Copy
+Edit
+1. Named Entity Recognition (NER)
+2. Language Detection
+3. Sentiment Analysis
+4. Translation (English → Hindi)
+5. Code Generation
+6. Exit
+🔹 Enter the number corresponding to your desired feature and follow the prompts.
+
+
