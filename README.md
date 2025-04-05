@@ -74,4 +74,83 @@ Edit
 6. Exit
 🔹 Enter the number corresponding to your desired feature and follow the prompts.
 
+## 🎯 Features & Usage  
+
+### 🔍 **1. Named Entity Recognition (NER)**  
+📝 Extracts key entities such as **Names, Locations, Organizations, etc.**  
+✅ **Example Input:**  
+```bash
+Enter the text: Elon Musk founded Tesla in 2003.
+Enter the target category: Person
+```
+📌 **Output:** `Elon Musk (Person)`
+
+---
+
+### 🌍 **2. Language Detection**  
+📝 Detects the language of any given text.  
+✅ **Example Input:**  
+```bash
+Enter text: Bonjour tout le monde!
+```
+📌 **Output:** `French (Probability: 0.98)`
+
+---
+
+### 😊 **3. Sentiment Analysis**  
+📝 Determines whether a statement is **Positive, Negative, or Neutral.**  
+✅ **Example Input:**  
+```bash
+Enter text: I love this product!
+```
+📌 **Output:** `Positive (Score: 0.95)`
+
+---
+
+### 🇮🇳 **4. English to Hindi Translation**  
+📝 Converts English text into **Hindi** seamlessly.  
+✅ **Example Input:**  
+```bash
+Enter text: Hello, how are you?
+```
+📌 **Output:** `नमस्ते, आप कैसे हैं?`
+
+---
+
+### 💻 **5. AI-Powered Code Generation**  
+📝 Generates code from natural language prompts!  
+✅ **Example Input:**  
+```bash
+Enter programming language: Python
+Enter text: Generate a Python script to sort a list of numbers.
+```
+📌 **Output:** A Python script that sorts a list of numbers.
+
+---
+
+## ⚠️ Important Notes  
+⚡ **Ensure you replace the API key** in the code before running the app.  
+🔐 **Keep your API key secure** and do NOT share it publicly.  
+🛠️ **Ensure you have installed all required libraries** before running the program.  
+📌 **Some inputs are case-sensitive**, like email during login.  
+
+---
+
+## 🖥️ Demo & Screenshots  
+*(Optional: Add screenshots or GIFs showing how the app works.)*  
+
+---
+
+## 🏆 Contributor  
+Developed by **AREEB-08** 🚀  
+
+📢 **If you found this project helpful, star ⭐ it on GitHub!**  
+
+---
+
+## 📌 Suggested Repository Name:  
+🔹 **NLPCloud-Python-App**  
+
+Let me know if you need further modifications! 🎨🔥🚀
+
 
