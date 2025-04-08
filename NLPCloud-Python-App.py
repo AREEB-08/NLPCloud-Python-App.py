@@ -60,3 +60,21 @@ class NLPApp:
                 exit()
         except Exception as e:
             print("Error in second menu:", e)
+    def __register(self):
+        try:
+            name = input('Enter name: ')
+            email = input('Enter email: ')
+            password = input('Enter password: ')
+
+            if email in self.__database:
+                print('Email already exists')
+            else:
+                self.__database[email] = [name, password]
+                print('Registration successful. Now login.')
+                self.__first_menu()
+        except Exception as e:
+            print("Error in registration:", e)
+       
+
+
+
